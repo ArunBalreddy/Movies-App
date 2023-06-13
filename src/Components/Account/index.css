@@ -1,0 +1,140 @@
+.account-bg-container {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+}
+.account-container {
+  min-height: 70vh;
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 2%;
+}
+.account-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+
+  color: #131313;
+}
+.horizontal-line {
+  height: 3px;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 2pz;
+}
+.member-ship-container {
+  display: flex;
+}
+.member-ship {
+  width: 150px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.username {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.plan-details-container {
+  display: flex;
+  align-items: center;
+}
+.quality {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 4px;
+  gap: 10px;
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+  height: 30px;
+  margin-left: 20px;
+}
+.logout-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background: #e50914;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  left: 47%;
+  position: absolute;
+  margin-top: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .account-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .account-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .member-ship {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .username {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .password {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .logout-button {
+    padding: 8px 20px;
+    gap: 10px;
+    left: 35%;
+    position: absolute;
+  }
+  .quality {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 2px 2px;
+    gap: 8px;
+    width: 80x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

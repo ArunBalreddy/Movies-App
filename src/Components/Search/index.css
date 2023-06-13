@@ -1,0 +1,57 @@
+.search-bg-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.movies-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 150px;
+  padding-right: 150px;
+  min-height: 70vh;
+}
+.loader-container {
+  height: 70vh;
+}
+.failure-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.emty-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.empty-list-img {
+}
+.empty-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+
+  color: #ffffff;
+
+  font-size: 24px;
+  line-height: 31px;
+}
+@media screen and (max-width: 600px) {
+  .movies-cards-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+  }
+  .empty-list-img {
+    height: 200px;
+    width: 250px;
+  }
+  .empty-heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

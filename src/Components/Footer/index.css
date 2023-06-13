@@ -1,0 +1,46 @@
+.footer-icons-container {
+  background-color: #131313;
+  color: aliceblue;
+}
+/* .footer-container {
+  background-color: transparent;
+} */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: #131313;
+}
+
+.footer-icon {
+  margin-right: 20px;
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .footer-container {
+    height: 150px;
+  }
+}

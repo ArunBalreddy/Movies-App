@@ -1,0 +1,30 @@
+.popular-bg-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.movies-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 150px;
+  padding-right: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  height: 70vh;
+}
+.failure-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+@media screen and (max-width: 600px) {
+  .movies-cards-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+  }
+}
